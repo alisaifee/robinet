@@ -20,16 +20,6 @@ Juwelier::Tasks.new do |gem|
   gem.description = "#{gem.summary}"
   gem.email = 'ali@indydevs.org'
   gem.authors = ['Ali-Akber Saifee']
-  gem.add_dependency 'dry-configurable'
-  gem.add_development_dependency 'rdoc', '~> 3.12'
-  gem.add_development_dependency 'bundler', '~> 1.0'
-  gem.add_development_dependency 'juwelier', '~> 2.3'
-  gem.add_development_dependency 'overcommit', '~> 0.33'
-  gem.add_development_dependency 'reek', '~> 4.1'
-  gem.add_development_dependency 'rubocop', '~> 0.44'
-  gem.add_development_dependency 'coveralls'
-  gem.add_development_dependency 'rspec', '~> 3.1.0'
-  gem.add_development_dependency 'simplecov', '>= 0'
 end
 Juwelier::RubygemsDotOrgTasks.new
 
