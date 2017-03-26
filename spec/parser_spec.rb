@@ -1,7 +1,7 @@
 describe Robinet::Parser do
   describe '#test' do
     it 'raises an error for an empty limit' do
-      expect{Robinet::Parser.extract('')}.to raise_error Robinet::Parser::InvalidRateLimit
+      expect{Robinet::Parser.extract('')}.to raise_error Robinet::Errors::InvalidRateLimit
     end
     it 'returns an array of a single limit' do
       expect(Robinet::Parser.extract('5 per minute')).to eq([Robinet::Limit.new(5, 1, :minute)])
