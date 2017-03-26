@@ -8,7 +8,7 @@ module Robinet
     def call(env)
       request = Rack::Request.new(env)
       begin
-        check_limits(request)
+        check_limits(request) if Robinet.config.enabled
         @app.call(env)
       rescue Errors::RateLimitExceeded => e
         e.http_response

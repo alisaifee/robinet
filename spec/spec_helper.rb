@@ -2,6 +2,7 @@ require 'coveralls'
 Coveralls.wear! if ENV['CI']
 
 require 'robinet'
+require 'rack'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
