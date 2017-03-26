@@ -11,8 +11,8 @@ rescue Bundler::BundlerError => e
 end
 require 'rake'
 
-require 'jeweler'
-Jeweler::Tasks.new do |gem|
+require 'juwelier'
+Juwelier::Tasks.new do |gem|
   gem.name = 'robinet'
   gem.homepage = 'http://github.com/alisaifee/robinet'
   gem.license = 'MIT'
@@ -21,7 +21,7 @@ Jeweler::Tasks.new do |gem|
   gem.email = 'ali@indydevs.org'
   gem.authors = ['Ali-Akber Saifee']
 end
-Jeweler::RubygemsDotOrgTasks.new
+Juwelier::RubygemsDotOrgTasks.new
 
 require 'rake/testtask'
 Rake::TestTask.new(:test) do |test|
