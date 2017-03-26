@@ -1,5 +1,5 @@
 = robinet
-
+{<img src="https://travis-ci.org/alisaifee/robinet.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/alisaifee/robinet]
 {<img src="https://codeclimate.com/github/alisaifee/robinet/badges/gpa.svg" />}[https://codeclimate.com/github/alisaifee/robinet]
 
 Description goes here.
