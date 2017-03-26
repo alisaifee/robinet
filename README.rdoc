@@ -1,10 +1,10 @@
-= retarder
+= robinet
 
-{<img src="https://codeclimate.com/github/alisaifee/retarder/badges/gpa.svg" />}[https://codeclimate.com/github/alisaifee/retarder]
+{<img src="https://codeclimate.com/github/alisaifee/robinet/badges/gpa.svg" />}[https://codeclimate.com/github/alisaifee/robinet]
 
 Description goes here.
 
-== Contributing to retarder
+== Contributing to robinet
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet.
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it.

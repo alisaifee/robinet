@@ -1,4 +1,4 @@
-module Retarder
+module Robinet
   class Limit
     attr_reader :amount, :multiples, :granularity
     def initialize(amount, multiples, granularity)

@@ -1,4 +1,4 @@
-module Retarder
+module Robinet
   class << self
     attr_accessor :root_path
     attr_accessor :lib_path
@@ -8,7 +8,7 @@ module Retarder
       end
     end
   end
-  self.root_path = File.expand_path "..", __FILE__
-  self.lib_path = File.expand_path "../retarder", __FILE__
+  self.root_path = File.expand_path '..', __FILE__
+  self.lib_path = File.expand_path '../robinet', __FILE__
   require_libs 'storage', 'strategy', 'parser', 'limit'
 end

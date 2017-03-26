@@ -1,4 +1,4 @@
-module Retarder
+module Robinet
   class Strategy
 
   end
