@@ -1,5 +1,7 @@
 = retarder
 
+{<img src="https://codeclimate.com/github/alisaifee/retarder/badges/gpa.svg" />}[https://codeclimate.com/github/alisaifee/retarder]
+
 Description goes here.
 
 == Contributing to retarder
