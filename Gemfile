@@ -9,7 +9,11 @@ group :development do
   gem 'rubocop', '~> 0.44'
 end
 group :test do
+  gem 'combustion', '~> 0.6.0'
   gem 'coveralls', require: false
-  gem 'rspec', '~> 3.1.0'
+  gem 'rails', '~> 5.0.1'
+  gem 'rspec'
+  gem 'rspec-rails'
   gem 'simplecov', '>= 0'
+  gem 'pry'
 end

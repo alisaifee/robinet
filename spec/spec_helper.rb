@@ -1,8 +1,11 @@
 require 'coveralls'
 Coveralls.wear! if ENV['CI']
 
+Bundler.require :default, :test
 require 'robinet'
-require 'rack'
+
+Combustion.initialize! :action_controller
+require 'rspec/rails'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

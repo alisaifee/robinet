@@ -12,6 +12,6 @@ module Robinet
   self.lib_path = File.expand_path '../robinet', __FILE__
   require_libs(
       'config', 'errors', 'storage', 'strategy',
-      'parser', 'limit', 'limiter', 'railtie', 'middleware'
+      'parser', 'limit', 'limiter', 'railtie', 'rails_helpers', 'middleware'
   )
 end
