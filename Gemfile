@@ -4,7 +4,7 @@ group :development do
   gem 'bundler', '~> 1.0'
   gem 'juwelier', '~> 2.3'
   gem 'overcommit', '~> 0.33'
-  gem 'rdoc', '~> 3.12'
+  gem 'rdoc', '~> 6.3'
   gem 'reek', '~> 4.1'
   gem 'rubocop', '~> 0.44'
 end
